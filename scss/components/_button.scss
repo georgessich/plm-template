@@ -1,0 +1,19 @@
+.button {
+    
+    border-radius: 2.1rem;
+    border: none;
+    color: #fff;
+    box-shadow: 0 0 40px 40px $color-btn inset, 0 0 0 0 $color-btn;
+    -webkit-transition: all 250ms ease-in-out;
+    transition: all 250ms ease-in-out;
+
+    &:hover {
+        box-shadow: 0 0 10px 0 $color-btn inset, 0 0 10px 4px $color-btn;
+        color: #000000;
+    }
+
+    &:active {
+        transform: translateY(2px);
+    }
+    
+}

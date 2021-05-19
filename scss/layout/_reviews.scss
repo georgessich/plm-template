@@ -1,0 +1,32 @@
+.reviews {
+
+    &__cards {
+        padding-top: 3.2rem;
+        display: flex;
+        align-items: center;
+        margin-bottom: 17.6rem;
+    }
+
+    &__card {
+        display: flex;
+        align-items: center;
+        margin-right: 11rem;
+
+        &-img {
+            margin-right: 1.6rem;
+        }
+
+        &-text {
+            font-size: 1.8rem;
+            width: 35rem;
+        }
+
+        &-link {
+            font-size: 2.4rem;
+            border-bottom: 1px solid transparent;
+            &:hover {
+                border-bottom: 1px solid #000;
+            }
+        }
+    }
+}

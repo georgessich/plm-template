@@ -1,0 +1,44 @@
+.about {
+
+    &__top {
+        background-color: $color-display;
+        padding-top: 5.7rem;
+        padding-bottom: 10.3rem;
+        &-advantages {
+            display: flex;
+            justify-content: space-between;
+            
+        }
+
+        &-text {
+            font-size: 3rem;
+            line-height: 4.7rem;
+            width: 22.5rem;
+        }
+    }
+
+    &__company {
+        padding-top: 10rem;
+        display: flex;
+        padding-bottom: 17.4rem;
+        &-images {
+            display: grid;
+            grid-template-columns: repeat(2, min-content);
+            grid-template-rows: repeat(2, min-content);
+            grid-column-gap: 2rem;
+            grid-row-gap: 4rem;
+            margin-right: 5rem;
+        }
+
+        &-img--1 {
+            grid-column: 1 / 2;
+            grid-row: 1 / 3;
+        }
+
+        &-text {
+            font-size: 3rem;
+            line-height: 5.1rem;
+            width: 62.7rem;
+        }
+    }
+}
