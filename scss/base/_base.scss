@@ -1,0 +1,33 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing:border-box;
+    font-size: 62.5%;
+
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+.container {
+    width: 134rem;
+    padding: 0rem 1.5rem;
+    margin: 0 auto; 
+}
